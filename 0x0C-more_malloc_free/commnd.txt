@@ -1,0 +1,10 @@
+julien@ubuntu:~/c/malloc$ gcc malloc_mem.c -o m
+julien@ubuntu:~/c/malloc$ valgrind ./m
+
+julien@ubuntu:~/c/malloc$ gcc segf.c -o segf
+julien@ubuntu:~/c/malloc$ strings segf
+
+julien@ubuntu:~/c/strings$ gcc print_school.c -o ps
+julien@ubuntu:~/c/strings$ strings ps | grep Holberton
+julien@ubuntu:~/c/strings$ objdump -s -j .rodata ps
+
