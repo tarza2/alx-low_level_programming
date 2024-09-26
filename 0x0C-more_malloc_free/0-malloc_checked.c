@@ -15,7 +15,7 @@ void *malloc_checked(unsigned int b)
 
 int main()
 {
-	char *c;
+	char *cgig;
 	int *i;
 	float *f;
 	double *d;
